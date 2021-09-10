@@ -4,6 +4,8 @@
 Raspberry pi ile beraber HTPA32x32d 'den görüntü almak.
 ## Gereksinimler
 ### Raspberry pi Konfigurasyonu
+    			<img src="Markdown/images/learn_raspberry_pi_interfacing.png"
+    				alt="Raspi-4 PinOut" />
 İlk olarak I2C ayarlarını yapıyoruz.
 #### [I2C'yi Yapılandırma](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-4-gpio-setup/configuring-i2c)
 
@@ -21,7 +23,7 @@ Cihazın bağlantılı olup olmadığını görmek için `sudo apt-get install -
  
  `sudo nano /boot/config.txt`
  "dtparam=i2c_arm=on,i2c_arm_baudrate=1000000" satırı ekledikten sonra dosyayı kaydedip çıkın.
- `sudo reboot`
+ `sudo reboot` cihazı yeniden başlatabilirsiniz.
 
                 
 ## Kod İçeriği
