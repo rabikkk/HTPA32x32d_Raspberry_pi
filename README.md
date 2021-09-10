@@ -10,7 +10,8 @@ Raspberry pi ile beraber HTPA32x32d 'den görüntü almak.
 Konsolu açtıktan sonra `Sudo raspi-config` yazalım.
 
 Ardından aşağıdaki adımları takip edelim.
-<img src="https://github.com/rabikkk/HTPA32x32d_Raspberry_pi/tree/main/Markdown/images/learn_raspberry_pi_interfacing.png)">
+    			<img src="Markdown/images/learn_raspberry_pi_interfacing.png"
+    				alt="My CV example preview" />")">
 ## Kod İçeriği
 ## Çıktılar
 ## Yaşanılan Problemler
