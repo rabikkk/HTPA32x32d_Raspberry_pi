@@ -11,6 +11,13 @@ Konsolu açtıktan sonra `Sudo raspi-config` yazalım.
 
 Ardından aşağıdaki adımları takip edelim.
     			<img src="Markdown/images/learn_raspberry_pi_interfacing.png">
+                <img src="Markdown/images/learn_raspberry_pi_advancedopt.png">
+                <img src="Markdown/images/learn_raspberry_pi_i2c.png">
+                <img src="Markdown/images/learn_raspberry_pi_wouldyoukindly.png">
+                <img src="Markdown/images/learn_raspberry_pi_i2ckernel.png">
+                <img src="Markdown/images/learn_raspberry_pi_i2c-detect.png">
+                
+                
 ## Kod İçeriği
 ## Çıktılar
 ## Yaşanılan Problemler
