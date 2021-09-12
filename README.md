@@ -47,6 +47,17 @@ Cihazın bağlantılı olup olmadığını görmek için `sudo apt-get install -
 
                 
 ## Kod İçeriği
+### 
+### 
+###
+### Tam çalışan Proje
+
+--> htpa.py kütüphane olarak yazılmıştır.
+
+Kütüphane için gerekli hazır kütüphanelere:
+`
+
+--> cihazın tam çalıştığına emin olduktan sonra yapmanız gereken tek şey `python capture_display.py` çalıştırmaktır.
 ## Çıktılar
 ## Yaşanılan Problemler
 ## Ekstra Bilgiler
