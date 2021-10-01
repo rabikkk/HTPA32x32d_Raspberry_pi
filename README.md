@@ -103,5 +103,6 @@ En çok yardım aldığım kaynaklardan biri [datasheet](https://www.prwa.com/si
 
 
  # ![Red text](Datasheet'te framerate'in 60 Hz olaağı yazmaktadır buna asla kanmayın çıkabileceğiniz maximum hız 8Hz civarlarında olmaktadır.)
- 
+ ```diff
 @@ fjdlkfdlfdkşlfkfld @@
+```
