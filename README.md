@@ -37,7 +37,9 @@ Cihazın bağlantılı olup olmadığını görmek için `sudo apt-get install -
               <img src="Markdown/images/learn_raspberry_pi_i2c-detect.png">
  Daha sonra I2c hızınızı ayarlamanız gerekir. HTPA teknik mühendisleri ile bir diyaloğumuzda 1Mhz ayarlamamızız sağlıklı olacağı söylenmişti ona istinaden bu ayarları yapıyoruz.
  
- `sudo nano /boot/config.txt`
+ ```ruby
+ sudo nano /boot/config.txt
+ ```
  
  
  "dtparam=i2c_arm=on,i2c_arm_baudrate=1000000" satırı ekledikten sonra dosyayı kaydedip çıkın.
@@ -57,9 +59,12 @@ Cihazın bağlantılı olup olmadığını görmek için `sudo apt-get install -
 --> htpa.py kütüphane olarak yazılmıştır.
 
 Kütüphane için gerekli hazır kütüphaneler:
-´pip install python-periphery
+```ruby
+ pip install python-periphery
  sudo apt-get install python-opencv
- pip install opencv-python`
+ pip install opencv-python
+```
+
 
 Not:kodumuz bazı gereksinimlerden dolayı python2'de çalışmaktadır python3'te çalıştırmaya kalktığınızda proje çalışmayacatır.
 
