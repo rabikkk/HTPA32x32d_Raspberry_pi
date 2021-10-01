@@ -106,3 +106,4 @@ En çok yardım aldığım kaynaklardan biri [datasheet](https://www.prwa.com/si
  ```diff
 # @@ Datasheet'te framerate'in 60 Hz olaağı yazmaktadır buna asla kanmayın çıkabileceğiniz maximum hız 8Hz civarlarında olmaktadır.@@
 ```
+In his beard lived three <span style="color:red">cardinals</span>.
