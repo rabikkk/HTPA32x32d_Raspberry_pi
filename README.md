@@ -67,7 +67,6 @@ Ne kadar `i2cdetect` komutuyla cihazı raspberry pi tanısada bazen sensörler s
 
 ´´´ruby
 python eeprom-test.py
-
 python htpa-test.py
 ´´´
 --> cihazın tam çalıştığına emin olduktan sonra yapmanız gereken tek şey `python capture_display.py` çalıştırmaktır.
