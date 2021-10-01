@@ -65,11 +65,11 @@ Not:kodumuz bazı gereksinimlerden dolayı python2'de çalışmaktadır python3'
 
 Ne kadar `i2cdetect` komutuyla cihazı raspberry pi tanısada bazen sensörler sıkıntı çıkartabiliyor. Sanırım cihazınız yanmış demek oluyor bunun için ana kodu çalıştırmadan önce eeprom ve cihazla haberleşebiliyormuyuz test etmemiz gerekir.
 
-'''
+´´´
 python eeprom-test.py
 
 python htpa-test.py
-'''
+´´´
 --> cihazın tam çalıştığına emin olduktan sonra yapmanız gereken tek şey `python capture_display.py` çalıştırmaktır.
 ## Çıktılar
 
