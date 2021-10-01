@@ -102,5 +102,5 @@ python capture_display.py
 En çok yardım aldığım kaynaklardan biri [datasheet](https://www.prwa.com/sites/default/files/files-webpage/2020/3878/thermal-imaging-sensor-specs.pdf)'ken diğeri ise [görüntü alma](http://exclav.es/2016/10/26/talkin-ir/),[eeprom ayarları](http://exclav.es/2016/12/13/calibrating-heimann/)
 
 
- # @@ Datasheet'te framerate'in 60 Hz olaağı yazmaktadır buna asla kanmayın çıkabileceğiniz maximum hız 8Hz civarlarında olmaktadır
+ # ![Red text](Datasheet'te framerate'in 60 Hz olaağı yazmaktadır buna asla kanmayın çıkabileceğiniz maximum hız 8Hz civarlarında olmaktadır.)
  
