@@ -47,17 +47,29 @@ Cihazın bağlantılı olup olmadığını görmek için `sudo apt-get install -
 
                 
 ## Kod İçeriği
-### 
-### 
-###
+### eeprom-test.py
+### htpa-test.py
+### htpa.py
+### capture_display.py
+
 ### Tam çalışan Proje
 
 --> htpa.py kütüphane olarak yazılmıştır.
 
-Kütüphane için gerekli hazır kütüphanelere:
-`
+Kütüphane için gerekli hazır kütüphaneler:
+´pip install python-periphery
+ sudo apt-get install python-opencv
+ pip install opencv-python`
+
+Not:kodumuz bazı gereksinimlerden dolayı python2'de çalışmaktadır python3'te çalıştırmaya kalktığınızda proje çalışmayacatır.
+
+Ne kadar `i2cdetect` komutuyla cihazı raspberry pi tanısada bazen sensörler sıkıntı çıkartabiliyor. Sanırım cihazınız yanmış demek oluyor bunun için ana kodu çalıştırmadan önce eeprom ve cihazla haberleşebiliyormuyuz test etmemiz gerekir.
+
+`python eeprom-test.py
+ python htpa-test.py`
 
 --> cihazın tam çalıştığına emin olduktan sonra yapmanız gereken tek şey `python capture_display.py` çalıştırmaktır.
 ## Çıktılar
-## Yaşanılan Problemler
+
 ## Ekstra Bilgiler
+En çok yardım aldığım kaynaklardan biri [datasheet](https://www.prwa.com/sites/default/files/files-webpage/2020/3878/thermal-imaging-sensor-specs.pdf)'ken diğeri ise [görüntü alma](http://exclav.es/2016/10/26/talkin-ir/),[eeprom ayarları](http://exclav.es/2016/12/13/calibrating-heimann/)
