@@ -27,11 +27,11 @@ Konsolu açtıktan sonra `Sudo raspi-config` yazalım.
 
 Ardından aşağıdaki adımları takip edelim.
 
-    			<img src="Markdown/images/learn_raspberry_pi_interfacing.png">
-                <img src="Markdown/images/learn_raspberry_pi_advancedopt.png">
-                <img src="Markdown/images/learn_raspberry_pi_i2c.png">
-                <img src="Markdown/images/learn_raspberry_pi_wouldyoukindly.png">
-                <img src="Markdown/images/learn_raspberry_pi_i2ckernel.png">
+<img src="Markdown/images/learn_raspberry_pi_interfacing.png">
+<img src="Markdown/images/learn_raspberry_pi_advancedopt.png">
+<img src="Markdown/images/learn_raspberry_pi_i2c.png">
+<img src="Markdown/images/learn_raspberry_pi_wouldyoukindly.png">
+<img src="Markdown/images/learn_raspberry_pi_i2ckernel.png">
                 
                 
 Cihazın bağlantılı olup olmadığını görmek için 
@@ -56,7 +56,10 @@ Daha sonra I2c hızınızı ayarlamanız gerekir. HTPA teknik mühendisleri ile 
  "dtparam=i2c_arm=on,i2c_arm_baudrate=1000000" satırı ekledikten sonra dosyayı kaydedip çıkın.
  
  
- `sudo reboot` cihazı yeniden başlatabilirsiniz.
+ ```ruby 
+ sudo reboot
+ ```
+ cihazı yeniden başlatabilirsiniz.
 
                 
 ## Kod İçeriği
@@ -87,8 +90,18 @@ python eeprom-test.py
 python htpa-test.py
 ```
 
---> cihazın tam çalıştığına emin olduktan sonra yapmanız gereken tek şey `python capture_display.py` çalıştırmaktır.
+--> cihazın tam çalıştığına emin olduktan sonra yapmanız gereken tek şey 
+```ruby 
+python capture_display.py
+```
+çalıştırmaktır.
 ## Çıktılar
 
 ## Ekstra Bilgiler
+
 En çok yardım aldığım kaynaklardan biri [datasheet](https://www.prwa.com/sites/default/files/files-webpage/2020/3878/thermal-imaging-sensor-specs.pdf)'ken diğeri ise [görüntü alma](http://exclav.es/2016/10/26/talkin-ir/),[eeprom ayarları](http://exclav.es/2016/12/13/calibrating-heimann/)
+
+```diff
+ - Datasheet'te framerate'in 60 Hz olaağı yazmaktadır buna asla kanmayın çıkabileceğiniz maximum hız 8Hz civarlarında olmaktadır
+ 
+```
