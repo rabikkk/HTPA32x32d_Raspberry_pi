@@ -26,6 +26,7 @@ Konsolu açtıktan sonra `Sudo raspi-config` yazalım.
 
 
 Ardından aşağıdaki adımları takip edelim.
+
     			<img src="Markdown/images/learn_raspberry_pi_interfacing.png">
                 <img src="Markdown/images/learn_raspberry_pi_advancedopt.png">
                 <img src="Markdown/images/learn_raspberry_pi_i2c.png">
@@ -34,8 +35,16 @@ Ardından aşağıdaki adımları takip edelim.
                 
                 
 Cihazın bağlantılı olup olmadığını görmek için 
-```ruby sudo apt-get install -y i2c-tools ``` kütüphanesini indirin ve konsola    ```ruby sudo i2cdetect -y 1```yazın eğer birinci kanalı kullanmıyorsanız 0-2-3 gibi kanallarada bakabilirsiniz.                    
-              <img src="Markdown/images/learn_raspberry_pi_i2c-detect.png">
+```ruby 
+sudo apt-get install -y i2c-tools
+``` 
+kütüphanesini indirin ve konsola    
+```ruby 
+sudo i2cdetect -y 1
+```
+yazın eğer birinci kanalı kullanmıyorsanız 0-2-3 gibi kanallarada bakabilirsiniz.                    
+
+<img src="Markdown/images/learn_raspberry_pi_i2c-detect.png">
               
 Daha sonra I2c hızınızı ayarlamanız gerekir. HTPA teknik mühendisleri ile bir diyaloğumuzda 1Mhz ayarlamamızız sağlıklı olacağı söylenmişti ona istinaden bu ayarları yapıyoruz.
  
